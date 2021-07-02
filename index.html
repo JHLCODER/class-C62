@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+    <body>
+        <script src="main.js">
+        </script>
+    <h3>
+    <center>
+        <ul class="menu">
+        <li class="links"><a href="#home">HOME</a></li>
+        <li class="links"><a href="#grids">GRID VIEW</a></li>
+        <li class="links"><a href="#slides">SLIDE VIEW</a></li>
+        </ul>
+    </center>
+        </h3>
+        <div class="container">
+        <section id="home">
+            <img src="img1.gif" id="img1" class="img-responsive">
+            </section>
+            
+            <section id="grids">
+              <h2>GRID GALLERY</h2>
+                <div id="row">
+                <img class="img" src="img%202.jpg">
+                <img class="img" src="img%203.jpg">
+                <img class="img" src="img%204.jpg">
+                <img class="img" src="img%205.jpg">
+                </div>
+                <div id="row">
+                <img class="img" src="img%206.jpg">
+                <img class="img" src="img%207.jpg">
+                <img class="img" src="img%208.jpg">
+                <img class="img" src="img%209.jpg">
+                </div>
+            </section>
+            
+            <section id="grids">
+            <h2>SLIDING GALLERY</h2>
+              <div id="myCarousel" class="carousel silde">
+    <div class="carousel-inner">
+        <div class="item active">
+        <center>
+            <a href="#" target="_blank">
+            <img src="img%2010.jpg" class="img-responsive">
+            </a>
+            <div class="carousel-content">
+                <p> flower</p>
+            </div>
+            </center>
+        </div>
+               <div class="item">
+        <center>
+            <a href="#" target="_blank">
+            <img src="img1.gif" class="img-responsive">
+            </a>
+            <div class="carousel-content">
+                <p> flower</p>
+            </div>
+            </center>
+        </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+            </section>
+        </div>
+    </body>
+</html>

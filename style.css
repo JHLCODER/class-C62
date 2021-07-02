@@ -1,0 +1,30 @@
+.menu{
+    float: left;
+    list-style: none;
+    color: aquamarine;
+    position: fixed;
+    background-color: cyan;
+    width: 100%;
+    z-index: 10;
+    top: 0px;
+}
+
+.links{
+    display: inline;
+    font-size: 20px;
+    padding-left:  35px;
+    padding-right: 35px;
+}
+
+#img1{
+    width: 100%;
+}
+
+.img{
+    width: 250px;
+    height: 200px;
+}
+
+body{
+    text-align: center;
+}
